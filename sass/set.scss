@@ -1,0 +1,94 @@
+body{
+    background-color: #eef2f3;
+}
+header{
+    height: 1.30rem;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    background-color: #fff;
+    padding:0 .10rem;
+    .top{
+        height: .46rem;
+        display: -webkit-flex;
+        justify-content: space-between;
+        font-size:.11rem;
+        line-height: .46rem;
+        color: black;
+        font-weight: bolder;
+        border-bottom: 1px solid #f3f3f3;
+        a{
+            display: -webkit-flex;
+        }
+        span:nth-child(2){
+            font-size: .14rem;
+        }
+        span:nth-child(3){
+            width: .16rem;
+        }
+    }
+    .bottom{
+        height: .84rem;
+        display: -webkit-flex;
+        -webkit-justify-content: space-between;
+        .left{
+            display: -webkit-flex;
+            -webkit-justify-content: center;
+            -webkit-align-items: center;
+            img{
+                width: .625rem;
+                height: .625rem;
+                margin-right:.11rem; 
+            }
+            .txt{
+                font-size: .10rem;
+                line-height: .20rem;
+            }
+        }
+        .right{
+            display: -webkit-flex;
+            a{
+                font-size: .13rem;
+                color: #88898b;
+                line-height: .84rem;
+            }
+        }
+    }
+}
+.ul{
+    display: -webkit-flex;
+    flex-direction: column;
+    padding: 0 .10rem;
+    background-color: #fff;
+    margin-top: .04rem;
+    li{
+        display: -webkit-flex;
+        justify-content: space-between;
+        font-size: .12rem;
+        color: #000;
+        line-height: .42rem;
+        font-weight: 700;
+        border-bottom: 1px solid #ededed;
+        a{
+            display: -webkit-flex;
+            color: #bfc0c2;
+        }
+    }
+}
+.h1{
+    display: -webkit-flex;
+    justify-content: center;
+    font-size: .14rem;
+    background-color: #fff;
+    color: #000;
+    line-height: .42rem;
+    margin-top: .04rem;
+    margin-bottom: .12rem;
+}
+.img{
+    display: -webkit-flex;
+    justify-content: center;
+    img{
+        width: .53rem;
+        height: .185rem
+    }
+}

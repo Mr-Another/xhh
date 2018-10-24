@@ -1,0 +1,104 @@
+body{
+    background-color: #0f1012;
+}
+header{
+    height: .59rem;
+    padding-left: .15rem;
+    display:-webkit-flex;
+    a{
+        display: -webkit-flex;
+        color: #fff;
+        font-size: .13rem;
+        line-height: .59rem;
+        .iconfont{
+            width: .11rem;
+            height: .185rem;
+        }
+    }
+}
+section{
+    margin-top: .70rem;
+    margin-bottom: 2.1rem;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    img{
+        width: .67rem;
+        height: 1.11rem;
+    }
+}
+.title{
+    height: .4rem;
+    display: -webkit-flex;
+    -webkit-justify-content:flex-end;
+    font-size: .13rem;
+    line-height: .4rem;
+    padding-right: .1rem;
+    a{
+        color: #6f7376;
+    }
+}
+.form{
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    margin: 0 .1rem;
+    p{
+        display: -webkit-flex;
+        height: .50rem;
+        background-color: #fff;
+        border-bottom:1px solid #efefef; 
+        input{
+            width: 2.915rem;
+            font-size: .11rem;
+            color: #909090;
+            line-height: .50rem;
+            text-indent: .16rem;
+            outline: none;
+            border: none;
+        }
+        .btn1{
+            display: -webkit-flex;
+            justify-content: center;
+            align-items:center; 
+            width: .51rem;
+            height: .30rem;
+            color: #84888b;
+            font-size: .13rem;
+            outline: none;
+            border: 1px solid #dbdcde;
+            background-color: #f1f2f4;
+            margin-top: .10rem;
+            border-radius: 45%;
+        }
+    }
+    p:nth-child(1){
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        input{
+            border-top-left-radius: 8px;
+        }
+    }
+    p:nth-child(2){
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        input{
+            border-bottom-left-radius: 8px;
+        }
+        a{
+            font-size: .11rem;
+            line-height: .50rem;
+            color: #667d8f;
+        }
+    }
+    .btn2{
+        height: .50rem;
+        line-height: .50rem;
+        color: #fff;
+        background-color: #3b3c3e;
+        font-size: .13rem;
+        border: none;
+        outline: none;
+        margin-top: .10rem;
+        border-radius: 8px;
+    }
+}
