@@ -1,0 +1,152 @@
+body{
+    background-color: #f1f2f4;
+}
+header{
+    height: 1.05rem;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    background-color: #fff;
+    .top{
+        padding: 0 .10rem;
+        height: .52rem;
+        display: -webkit-flex;
+        -webkit-justify-content: space-between;
+        border-bottom: 1px solid #efefef;
+        a{
+            display: -webkit-flex;
+            font-size: .13rem;
+            line-height: .52rem;
+            color: #000;
+        }
+        a:nth-child(1),a:nth-child(5){
+            font-weight: bold;
+        }
+        a:nth-child(2){
+            font-weight: 700;
+            border-bottom: 2px solid #000;
+        }
+    }
+    .bottom{
+        height: .52rem;
+        display: -webkit-flex;
+        -webkit-justify-content: space-between;
+        padding: 0 .10rem;
+        a{
+            display: -webkit-flex;
+            margin-top: .105rem;
+            height: .31rem;
+            font-size: .10rem;
+            line-height: .31rem;
+            color: #828385;
+            .iconfont{
+                font-size: .15rem;
+                margin-right: .05rem;
+            }
+        }
+        a:nth-child(1){
+            width: 3.02rem;
+            background-color: #f1f2f4;
+            text-indent: .10rem;
+            border-radius: 5px;
+        }
+    }
+    
+}
+section{
+    flex: 1;
+    overflow: hidden;
+    display: -webkit-flex;
+    margin-top: 1px;
+    .left{
+        display: -webkit-flex;
+        -webkit-flex-direction: column;
+        background-color: #fafbfd;
+        a{
+            display: -webkit-flex;
+            -webkit-justify-content: center;
+            width: .84rem;
+            height: .48rem;
+            border-bottom:1px solid #efeff1;
+            font-size: .13rem;
+            line-height: .48rem;
+            color:#000;
+            font-weight: 700;
+            // &:link{
+            //     border-left: 2px solid transparent;
+            // }
+            // &:visited{
+            //     border-left: 2px solid #068ce3;
+            // }
+        }
+    }
+    .right{
+        overflow-y: auto;
+        overflow-x: hidden;
+        .content{
+            width: 2.835rem;
+            background-color: #fff;
+            border-radius: 5px;
+            margin-left: .04rem;
+            margin-top: .05rem;
+            display: -webkit-flex;
+            -webkit-flex-direction: column;
+            h1{
+                font-size: .13rem;
+                line-height: .50rem;
+                text-indent: .11rem;
+            }
+            .href{
+                display: -webkit-flex; 
+                -webkit-flex-wrap: wrap;
+                margin:0 .08rem;
+                a{
+                    display: -webkit-flex;
+                    -webkit-flex-direction: column;
+                    -webkit-justify-content: center;
+                    padding:  0 .115rem .15rem;;
+                    img{
+                        width: .42rem;
+                        height: .42rem;
+                    }
+                    span{
+                        font-size: .10rem;
+                        line-height: .15rem;
+                        color: #000;
+                        padding: .05rem 0;
+                    }
+                    p{
+                        font-size: .05rem;
+                        line-height: .08rem;
+                        color: #7a7a7a;
+                        display: -webkit-flex;
+                        -webkit-justify-content: center;
+                        img{
+                            width: .065rem;
+                            height: .08rem;
+                            margin-right: .03rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    height: .51rem;
+    background-color: #fff;
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    a{
+        display: -webkit-flex;
+        flex-direction: column;
+        height: .51rem;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .08rem;
+        color: #4d5154;
+        img{
+            width: .19rem;
+            height: .19rem;
+        }
+    }
+}
