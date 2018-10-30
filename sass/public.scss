@@ -16,6 +16,7 @@ html,body{
 body{
     display: -webkit-flex;
     -webkit-flex-direction: column;
+    overflow-x: hidden;
 }
 img{
     display: block;

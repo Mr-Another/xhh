@@ -35,15 +35,15 @@
 
     <section>
         <div class="left">
-            <a href="#one">我的订阅</a>
-            <a href="#two">推荐</a>
-            <a href="#three">综合讨论区</a>
-            <a href="#four">绝地求生</a>
-            <a href="#five">盒友都在玩</a>
-            <a href="#six">热门新游</a>
-            <a href="#seven">经典神作</a>
-            <a href="#eight">育碧专区</a>
-            <a href="#nine">V社游戏</a>
+            <a class="a1" href="#one">我的订阅</a>
+            <a class="a1" href="#two">推荐</a>
+            <a class="a1" href="#three">综合讨论区</a>
+            <a class="a1" href="#four">绝地求生</a>
+            <a class="a1" href="#five">盒友都在玩</a>
+            <a class="a1" href="#six">热门新游</a>
+            <a class="a1" href="#seven">经典神作</a>
+            <a class="a1" href="#eight">育碧专区</a>
+            <a class="a1" href="#nine">V社游戏</a>
         </div>
         <div class="right">
             <div id="one" class="content">
@@ -70,7 +70,7 @@
             <div id="two" class="content">
                 <h1>推荐</h1>
                 <div class="href">
-                    <a href="#">
+                    <a href="wiki.html">
                         <img src="img/y3.jpg" alt="">
                         <span>绝地求生</span>
                         <p>
@@ -201,7 +201,7 @@
                         <img src="img/y2.jpg" alt="">
                         <span>使命召唤</span>
                         <p>
-                            <img src="img/b14.jpg" alt="">
+                            <img src="img/y14.jpg" alt="">
                             4578
                         </p>
                     </a>
@@ -458,4 +458,15 @@
         </a>
     </footer>
 </body>
+<script>
+    let a1=document.getElementsByClassName('a1');
+    for(let i=0;i<a1.length;i++){
+        a1[i].onclick=function(){
+            for(let j=0;j<a1.length;j++){
+                a1[j].style.borderLeftColor='transparent';
+                this.style.borderLeftColor='#068ce3';
+            }
+        }
+    }
+</script>
 </html>
